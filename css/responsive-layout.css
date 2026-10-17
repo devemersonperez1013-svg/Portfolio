@@ -1,0 +1,141 @@
+/* Page Responsiveness */
+@media(max-width: 1280px) {
+    header {
+        padding: 1rem 2rem;
+        gap: 2rem;
+    }
+
+    .about .about-container {
+        gap: 3rem;
+    }
+
+    .skills-info {
+        flex-direction: column;
+    }
+
+    .input-box input {
+        padding: 2rem 5rem;
+        font-size: 2.5rem;
+    }
+
+    .input input::placeholder {
+        font-size: 2.5rem;
+    }
+
+    .input-box i {
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 768px) {
+    header {
+        gap: 1rem;
+        padding: 1rem 1rem;
+    }
+
+    header .logo {
+        font-size: 1rem;
+    }
+
+    header .visit-btn {
+        display: none;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .input-box input {
+        padding: 1rem 2rem;
+        font-size: 1.8rem;
+    }
+
+    .input-box .btn {
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+
+    .input-box input::placeholder {
+        font-size: 1.5rem;
+    }
+
+    .input-box i {
+        display: none;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media(max-width: 600px) {
+    header #menu-icon {
+        display: block;
+    }
+
+    header {
+        width: calc(100% - 2rem);
+        justify-content: space-between;
+        padding: 0.75rem 1.25rem;
+        gap: 1rem;
+    }
+
+    header .logo {
+        font-size: 1.2rem;
+    }
+
+    /* Menu hambuger */
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        margin-top: 1rem;
+        width: 100%;
+        padding: 1rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.788);
+        border-radius: 3rem;
+        display: none;
+    }
+
+    .nav-links li {
+        margin-top: 1.5rem;
+        padding: 1rem;
+    }
+
+    .nav-links.active {
+        display: block;
+    }
+
+    .about-container {
+        width: 80vw;
+    }
+
+    .input-box input, .input-box textarea {
+        padding: 0.5rem 3rem;
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    /* Modificar o tamanho desse codigo */
+    .input-box .btn {
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+
+    .input-box input::placeholder {
+        font-size: 1.5rem;
+    }
+    .input-box textarea::placeholder {
+        font-size: 1.5rem;
+    }
+
+    footer ul {
+        gap: 1rem;
+    }
+
+}

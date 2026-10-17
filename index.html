@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descriprtion"
+        content="Portfólio do Emerson Perez, desenvolvedor front-end. Projetos em HTML, CSS, JavaScript e React">
+    <title>Emerson Perez | Desenvolvedor Front-end</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/responsive-layout.css">
+    <script src="./js/script.js" defer></script>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#about" class="logo"><span>Emerson Perez</span></a>
+
+        <nav aria-label="Navegação principal">
+            <ul class="nav-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        <button id="menu-icon" aria-label="Abrir menu-icon" aria-expanded="false">
+            <i class="fa-solid fa-bars" id="menu-icon" aria-hidden="true"></i>
+        </button>
+
+        <a href="https://github.com/devemersonperez1013-svg" target="_blank" rel="noopener noreferrer"
+            class="visit-btn">Meu Github</a>
+    </header>
+
+    <main>
+
+        <section id="about" class="about">
+            <div class="about-container">
+                <img src="./img/perfil.jpeg" alt="perfil do Emerson">
+
+                <div class="info-box">
+
+                    <div class="text">
+                        <p>Olá, eu sou</p>
+                        <h1>Emerson Perez</h1>
+                        <span>Desenvolvedor Front-end</span>
+                    </div>
+
+                    <div class="btn-group">
+                        <a href="resume/Curriculo_Emerson_Frontend.pdf" class="btn"
+                            download="Curriculo_do_Emerson.pdf">Baixar currículo</a>
+                        <a href="#contact" class="btn">Contato</a>
+                    </div>
+
+                    <div class="socials">
+                        <a href="https://github.com/devemersonperez1013-svg" target="_blank" rel="noopener noreferrer"
+                            aria-label="GitHub do Emerson (abre em nova aba)">
+                            <i class="fa-brands fa-github i-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/emerson-ayrton-perez-mamani-112724385/" target="_blank"
+                            rel="noopener noreferrer" aria-label="Linkedin do Emerson (abre em nova aba)">
+                            <i class="fa-brands fa-linkedin i-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-info">
+                <div class="grid">
+                    <div class="grid-card">
+                        <i class="fa-brands fa-html5"></i>
+                        <span>HTML</span>
+                        <h3>Estrutura da página</h3>
+                        <p>Construo páginas com HTML semântico e acessível, organizando o conteúdo de forma clara para
+                            usuários e mecanismos de busca.</p>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <span>CSS</span>
+                        <h3>Estilização da página</h3>
+                        <p>Crio layouts atraentes e responsivos, utilizando Flexbox, Grid e media queries para que o
+                            site
+                            funcione bem em qualquer tela.</p>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-brands fa-square-js"></i>
+                        <span>JavaScript</span>
+                        <h3>Interatividade da página</h3>
+                        <p>Adiciono comportamentos dinâmicos às páginas, manipulando o DOM e consumindo APIs para criar
+                            experiências interativas.</p>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-brands fa-react"></i>
+                        <span>React</span>
+                        <h3>Interfaces de usuário</h3>
+                        <p>Estou aprendendo a construir interfaces com componentes e já utilizo o useState para
+                            controlar o
+                            estado e a interatividade da página.</p>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-brands fa-git-alt"></i>
+                        <span>Git/GitHub</span>
+                        <h3>Controle de versão</h3>
+                        <p>Utilizo Git no dia a dia dos meus projetos (init, add, status, commit e push) e publico o
+                            código
+                            no GitHub.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">Projetos recentes</h2>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="./img/age-calculator.webp" alt="Tela da calculadora de Idade">
+                    <h3>Calculadora de Idade</h3>
+                    <p>Calcula a idade exata a partir da data de nascimento, usando um seletor de datas.</p>
+                    <div class="btn-group">
+                        <a href="https://devemersonperez1013-svg.github.io/Age-Calculator-with-luxon-API/"
+                            target="_blank" rel="noopener noreferrer" class="btn">Live Demo</a>
+                        <a href="https://github.com/devemersonperez1013-svg/Age-Calculator-with-luxon-API"
+                            target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Github Repository</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./img/IMC-calculator.webp" alt="Tela da calculadora IMC">
+                    <h3>Calculadora IMC ReactJS</h3>
+                    <p>Calcula o Índice de Massa Corporal e exibe o resultado, com a interface dividida em componentes.
+                    </p>
+                    <div class="btn-group">
+                        <a href="https://devemersonperez1013-svg.github.io/calculadora-IMC/" target="_blank"
+                            rel="noopener noreferrer" class="btn">Live Demo</a>
+                        <a href="https://github.com/devemersonperez1013-svg/calculadora-IMC" target="_blank"
+                            rel="noopener noreferrer" class="btn btn-secondary">Github Repository</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./img/password-generator.webp" alt="Tela do gerador de senhas">
+                    <h3>Gerador de Senhas</h3>
+                    <p>Gera senhas em tempo real, com opções ajustáveis pelo usuário.</p>
+                    <div class="btn-group">
+                        <a href="https://devemersonperez1013-svg.github.io/Gerador-de-Senhas/" target="_blank"
+                            rel="noopener noreferrer" class="btn">Live Demo</a>
+                        <a href="https://github.com/devemersonperez1013-svg/Gerador-de-Senhas" target="_blank"
+                            rel="noopener noreferrer" class="btn btn-secondary">Github Repository</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="input-box">
+                <h2 class="section-title">Contato</h2>
+                <form action="https://formspree.io/f/xeaevkyk" method="POST">
+                    <div class="input">
+                        <label for="email" class="sr-only">Seu e-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seu_email@exemplo.com" required>
+                        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <div class="input">
+                        <label for="message" class="sr-only">Sua mensagem</label>
+                        <textarea name="message" id="message" rows="4" placeholder="Sua mensagem..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+
+        <p class="copyright">&copy; Todos os direitos reservados | Emerson Perez | 2026</p>
+    </footer>
+</body>
+
+</html>
